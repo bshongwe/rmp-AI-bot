@@ -1,0 +1,17 @@
+{
+  "name": "rate-my-professor-AI-assistant",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@mui/material": "^5.0.0",
+    "next": "^13.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@pinecone-database/pinecone": "^0.0.1",
+    "openai": "^1.0.0"
+  }
+}
