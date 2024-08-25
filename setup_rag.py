@@ -10,12 +10,12 @@ load_dotenv(".env.local")
 pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 
 # Create a Pinecone index
-#pc.create_index(
-#    name="rag",
-#    dimension=1536,
-#    metric="cosine",
-#    spec=ServerlessSpec(cloud="aws", region="us-east-1"),
-#)
+pc.create_index(
+    name="rag",
+    dimension=1536,
+    metric="cosine",
+    spec=ServerlessSpec(cloud="aws", region="us-east-1"),
+)
 
 # Load the review data
 data = json.load(open("reviews.json"))
