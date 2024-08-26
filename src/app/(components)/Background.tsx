@@ -51,7 +51,7 @@ export function HeroWithOrbitingCircles() {
                         type: "spring",
                     }}
                 >
-                    <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent">
+                    <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ff7e00] via-[#ff9e2c] to-[#ffb84d] bg-clip-text text-center font-bold leading-none tracking-tighter text-transparent">
                         Rate My Professor AI Assistant
                     </span>
 
