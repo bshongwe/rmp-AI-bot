@@ -43,6 +43,7 @@ export function StickyHeader({
     const navLinks = useMemo(
         () => [
             { id: 1, label: "Home", link: "/" },
+            { id: 2, label: "About", link: "https://rate-my-professor-ai-assistant-blue.vercel.app/" },
             { id: 3, label: "Reviews", link: "#reviews" },
         ],
         [],
